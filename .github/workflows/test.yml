@@ -85,7 +85,7 @@ jobs:
 
     steps:
       - name: Set up Procursus
-        uses: beerpiss/procursus-action@v1
+        uses: beerpiss/procursus-action@v2
         with:
           packages: ldid
           cache: true
